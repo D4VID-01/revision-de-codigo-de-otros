@@ -1,4 +1,5 @@
-var formulario = document.querySelector("#form")
+// Sustitución de variable tipo VAR por una tipo CONST
+const formulario = document.querySelector("#form")
 
 formulario.onsubmit = function(e) {
 

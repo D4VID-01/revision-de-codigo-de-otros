@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
+  <title>Formulario</title>
+</head>
+<body>
+  <h1>Bienvenidos a mi fiesta</h1>
+  <h2>Por favor, confirmar asistencia:</h2>
+
+  <form class="formulario">
+    <!-- Se añade la etiqueta fieldset -->
+    <fieldset>
+      <!-- Se añade la etiqueta legend -->
+      <legend>Datos persoanales</legend>
+      <!-- Se añade la etiqueta label para el input name -->
+      <label for="name">Nombre</label>
+      <input type="text" name="name" id="name">
+      <br />
+      <!-- Se añade la etiqueta label para el input de age -->
+      <label for="age">Edad</label>
+      <input type="number" name="age" id="age">
+      <br />
+      <!-- Se añade la etiqueta label para el select de nationality-->
+      <label for="">Nacionalidad</label>
+      <select name="nationality" id="nationality">
+        <option value="ar">Argentina</option>
+        <option value="mx">Mexicana</option>
+        <option value="per">Peruana</option>
+        <option value="vnzl">Venezolana</option>
+      </select>
+      <br />
+      <!-- Se cambia la etiqueta input por una button  -->
+      <button type="submit">Enviar</button>
+    </fieldset>
+  </form>
+
+  <div>
+    <h2>Lista de invitados</h2>
+
+  </div>
+
+  <script src="../formulario.js"></script>
+</body>
+
+</html>
